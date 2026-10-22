@@ -1,0 +1,31 @@
+{
+  "id": "cache",
+  "name": "Fractera Redis Cache",
+  "shortDescription": "The fast store of the node: counters and queues of busy actions — likes, views, comments before they are written — kept in memory so the database is not hit on every click.",
+  "longDescription": "The fifth element of the memory of the node, next to the database, the object storage, the vector store and the graph. It is meant to take the hot, frequent actions of applications (likes, views, reactions, comments waiting to be written) into Redis and to pass the totals to the database element in batches. Today it is a body only: the element is installed, known to the node and turned off by default — Redis itself, its doors and the transfer of totals are not connected yet. It is meant for macOS and Linux; Redis is not built for Windows. It keeps no copy of its own: the truth lives in the database element.",
+  "accepts": "Nothing yet: the element is turned off by default and serves no doors.",
+  "returns": "Nothing yet.",
+  "designSkill": "impeccable",
+  "isFracteraArchitecture": true,
+  "framework": "next",
+  "elementType": "native",
+  "visibility": "node",
+  "calls": [
+    "auth",
+    "data",
+    "config",
+    "design"
+  ],
+  "messengers": {
+    "h2a": true,
+    "h2h": false,
+    "a2a": false
+  },
+  "power": {
+    "default": "off",
+    "reason": {
+      "en": "Works on macOS and Linux; Redis itself is not connected yet",
+      "ru": "Работает на macOS и Linux; сам Redis ещё не подключён"
+    }
+  }
+}
