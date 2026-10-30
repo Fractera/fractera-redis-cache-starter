@@ -22,7 +22,6 @@
     "a2a": false
   },
   "power": {
-    "default": "off",
     "reason": {
       "en": "Works on macOS and Linux; Redis itself is not connected yet",
       "ru": "Работает на macOS и Linux; сам Redis ещё не подключён"
