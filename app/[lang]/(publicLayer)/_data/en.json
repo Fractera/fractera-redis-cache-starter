@@ -40,12 +40,12 @@
     },
     {
       "kind": "text-h4",
-      "text": "It starts with the node",
+      "text": "Off until it is needed",
       "bid": "ra003"
     },
     {
       "kind": "text-p",
-      "text": "Every native element except Stripe is on by default, this one too.",
+      "text": "Like Stripe, it arrives turned off: not every application needs a fast store. Turn it on in the core, on its settings page, or with a word to the main agent.",
       "bid": "ra004"
     },
     {
@@ -76,12 +76,12 @@
     {
       "kind": "block-section-head",
       "id": "power",
-      "title": "On, asleep only when memory is short",
+      "title": "Off by default",
       "bid": "q0000"
     },
     {
       "kind": "text-p",
-      "text": "The element starts with the node. With less than 0.5 GB of free memory the node may put it to sleep; the first call or a calendar entry wakes it in seconds, and above 1 GB free it comes back by itself.",
+      "text": "The node installs it turned off: not every application needs a fast store. Once turned on, it may sleep when memory is short and wakes on the first call.",
       "bid": "q0001"
     },
     {

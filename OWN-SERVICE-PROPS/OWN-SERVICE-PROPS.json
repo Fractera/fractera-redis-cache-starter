@@ -22,12 +22,12 @@
     "a2a": false
   },
   "power": {
-    "default": "on",
+    "default": "off",
     "switch": "auto",
     "wakeOnCall": true,
     "reason": {
-      "en": "Works on macOS and Linux; Redis itself is not connected yet",
-      "ru": "Работает на macOS и Linux; сам Redis ещё не подключён"
+      "en": "Turn it on when an application needs the fast store; Redis itself is not connected yet",
+      "ru": "Включите, когда приложению понадобится быстрое хранилище; сам Redis ещё не подключён"
     }
   }
 }
