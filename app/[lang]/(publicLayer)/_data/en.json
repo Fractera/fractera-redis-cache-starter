@@ -1,6 +1,6 @@
 {
   "title": "Fractera Cache — the fast store of your node",
-  "description": "The fifth store of the node’s memory, next to the database, the files, the vectors and the graph. It comes with every node and stays turned off by default: not every application needs it.",
+  "description": "The fifth store of the node’s memory, next to the database, the files, the vectors and the graph, meant for the busy actions of applications: likes, views and reactions kept in memory and passed to the database in batches.",
   "keywords": "",
   "blocks": [
     {
@@ -11,7 +11,7 @@
       "kind": "block-hero-centered",
       "pill": "OpenSource Web4 agent & app starter kit",
       "title": "The fast store of your node",
-      "description": "The fifth store of the node’s memory, next to the database, the files, the vectors and the graph. It comes with every node and stays turned off by default: not every application needs it.",
+      "description": "The fifth store of the node’s memory, next to the database, the files, the vectors and the graph. It is meant for the busy actions of applications: likes, views and reactions kept in memory and passed to the database in batches.",
       "cta": {
         "label": "Where it stands",
         "href": "#hood"
@@ -40,12 +40,12 @@
     },
     {
       "kind": "text-h4",
-      "text": "It is off by default",
+      "text": "It starts with the node",
       "bid": "ra003"
     },
     {
       "kind": "text-p",
-      "text": "Its passport says off, with the reason, and the node installs it without starting it.",
+      "text": "Every native element except Stripe is on by default, this one too.",
       "bid": "ra004"
     },
     {
@@ -55,17 +55,17 @@
     },
     {
       "kind": "text-p",
-      "text": "An element is turned on by the architect’s word or button, like every element of the node.",
+      "text": "The architect turns it off or on with a word or a button, like every element of the node.",
       "bid": "ra006"
     },
     {
       "kind": "text-h4",
-      "text": "macOS and Linux",
+      "text": "The truth stays in the database",
       "bid": "ra007"
     },
     {
       "kind": "text-p",
-      "text": "Redis is not built for Windows, so on Windows this element stays off.",
+      "text": "The totals belong to the database element, so the fast store keeps no backup of its own.",
       "bid": "ra008"
     },
     {
@@ -88,7 +88,7 @@
       "rows": [
         [
           "Passport",
-          "What the element is and its power: off by default, with its reason"
+          "What the element is, and the reason it shows when it is turned off"
         ],
         [
           "Node contract",
@@ -99,8 +99,8 @@
           "Its record and its pinned tag in the core"
         ],
         [
-          "Platforms",
-          "macOS and Linux"
+          "Engine",
+          "Redis or one that speaks its protocol, chosen on a server by the owner’s word"
         ]
       ],
       "bid": "rb001"
