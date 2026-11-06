@@ -1,11 +1,120 @@
 {
-  "title": "Reference native template",
-  "description": "The reference starter template of a Fractera native element.",
+  "title": "Fractera Cache — the fast store of your node",
+  "description": "The fifth store of the node’s memory, next to the database, the files, the vectors and the graph. It comes with every node and stays turned off by default: not every application needs it.",
   "keywords": "",
   "blocks": [
     {
-      "kind": "widget-static-reference-title",
-      "bid": "rf001"
+      "kind": "widget-static-cache-landing",
+      "bid": "rw001"
+    },
+    {
+      "kind": "block-hero-centered",
+      "pill": "OpenSource Web4 agent & app starter kit",
+      "title": "The fast store of your node",
+      "description": "The fifth store of the node’s memory, next to the database, the files, the vectors and the graph. It comes with every node and stays turned off by default: not every application needs it.",
+      "cta": {
+        "label": "Where it stands",
+        "href": "#hood"
+      },
+      "secondary": {
+        "label": "Open source",
+        "href": "#credits"
+      },
+      "bid": "rh001"
+    },
+    {
+      "kind": "block-section-head",
+      "id": "route",
+      "title": "Where it stands",
+      "bid": "ra000"
+    },
+    {
+      "kind": "text-h4",
+      "text": "It comes with the node",
+      "bid": "ra001"
+    },
+    {
+      "kind": "text-p",
+      "text": "Its folder, its passport and its record in the core’s registry arrive with every node.",
+      "bid": "ra002"
+    },
+    {
+      "kind": "text-h4",
+      "text": "It is off by default",
+      "bid": "ra003"
+    },
+    {
+      "kind": "text-p",
+      "text": "Its passport says off, with the reason, and the node installs it without starting it.",
+      "bid": "ra004"
+    },
+    {
+      "kind": "text-h4",
+      "text": "The node holds the switch",
+      "bid": "ra005"
+    },
+    {
+      "kind": "text-p",
+      "text": "An element is turned on by the architect’s word or button, like every element of the node.",
+      "bid": "ra006"
+    },
+    {
+      "kind": "text-h4",
+      "text": "macOS and Linux",
+      "bid": "ra007"
+    },
+    {
+      "kind": "text-p",
+      "text": "Redis is not built for Windows, so on Windows this element stays off.",
+      "bid": "ra008"
+    },
+    {
+      "kind": "text-small",
+      "text": "A timer or a background transfer of this element is built only by the owner’s word, with its cost in memory named first.",
+      "bid": "ra009"
+    },
+    {
+      "kind": "block-section-head",
+      "id": "hood",
+      "title": "What it has",
+      "bid": "rb000"
+    },
+    {
+      "kind": "text-table",
+      "head": [
+        "Part",
+        "What it is"
+      ],
+      "rows": [
+        [
+          "Passport",
+          "What the element is and its power: off by default, with its reason"
+        ],
+        [
+          "Node contract",
+          "What the node needs to install it"
+        ],
+        [
+          "Registry",
+          "Its record and its pinned tag in the core"
+        ],
+        [
+          "Platforms",
+          "macOS and Linux"
+        ]
+      ],
+      "bid": "rb001"
+    },
+    {
+      "kind": "block-section-head",
+      "id": "credits",
+      "title": "Open source",
+      "bid": "rc000"
+    },
+    {
+      "kind": "text-p",
+      "text": "Built by Fractera for the [Lagrix](https://lagrix.dev) protocol. MIT license, the code is at [github.com/Fractera/fractera-redis-cache-starter](https://github.com/Fractera/fractera-redis-cache-starter); the copy on your node is yours.",
+      "bid": "rc001"
     }
   ]
 }
