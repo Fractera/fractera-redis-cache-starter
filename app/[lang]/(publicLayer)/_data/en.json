@@ -75,6 +75,17 @@
     },
     {
       "kind": "block-section-head",
+      "id": "power",
+      "title": "On from the start",
+      "bid": "q0000"
+    },
+    {
+      "kind": "text-p",
+      "text": "This element starts with the node. The node holds the switch: the architect turns it off or on with a word to the main agent, or on the element's settings page in the core.",
+      "bid": "q0001"
+    },
+    {
+      "kind": "block-section-head",
       "id": "hood",
       "title": "What it has",
       "bid": "rb000"
@@ -107,6 +118,31 @@
     },
     {
       "kind": "block-section-head",
+      "id": "builder",
+      "title": "Your own builder comes with it",
+      "bid": "q0002"
+    },
+    {
+      "kind": "text-p",
+      "text": "Every element of the node comes with its own Claude Code agent and can get its own Telegram bot. When something in this element should change, write to its bot from your phone, and the agent updates the logic or the design.",
+      "bid": "q0003"
+    },
+    {
+      "kind": "text-p",
+      "text": "The agent works only in its element's folder and never reads the whole node, so each change costs fewer tokens. Your Claude Code subscription pays for it.",
+      "bid": "q0004"
+    },
+    {
+      "kind": "text-list",
+      "items": [
+        "The element's bot is connected in the core, on its «Telegram» page.",
+        "The agent returns a commit; you look at it in «Preview» and accept it or turn it down.",
+        "At the computer, the agent's terminal is in the core, in this element's «Build»."
+      ],
+      "bid": "q0005"
+    },
+    {
+      "kind": "block-section-head",
       "id": "credits",
       "title": "Open source",
       "bid": "rc000"
@@ -115,6 +151,31 @@
       "kind": "text-p",
       "text": "Built by Fractera for the [Lagrix](https://lagrix.dev) protocol. MIT license, the code is at [github.com/Fractera/fractera-redis-cache-starter](https://github.com/Fractera/fractera-redis-cache-starter); the copy on your node is yours.",
       "bid": "rc001"
+    },
+    {
+      "kind": "block-section-head",
+      "id": "faq",
+      "title": "Questions and answers",
+      "bid": "q0006"
+    },
+    {
+      "kind": "block-faq",
+      "title": "Questions and answers",
+      "items": [
+        {
+          "q": "What is it for?",
+          "a": "Frequent actions of applications: likes, views and reactions are held in memory and go to the database in batches."
+        },
+        {
+          "q": "Does it keep its own backup?",
+          "a": "No. The totals belong to the data element, so the truth stays in the database."
+        },
+        {
+          "q": "Which engine does it run?",
+          "a": "Redis or one compatible with its protocol, chosen on the server by the owner's word."
+        }
+      ],
+      "bid": "q0007"
     }
   ]
 }
