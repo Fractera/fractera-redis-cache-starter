@@ -8,17 +8,18 @@ database on every click loads the main application. The fast store is meant to t
 memory, and to pass the totals to the database element in batches. The truth stays in the database element, so the fast store
 keeps no backup of its own.
 
-## Today: a body, turned off
+## Today: a body
 
 Step 560 (owner 2026-10-22: «final dev will in server later, now only base and body with turn off state») built only the body:
 
 - the element folder, its passport and node contract, a record in the core registry (`WEB4-ITEMS-REGISTRY/web4-items.json`);
-- the passport says `power: { default: "off", reason }` — the node installs the element and never starts it
-  (`npm run element:power -- cache status` in the core prints the reason);
+- since step 619 the passport no longer says `power.default off` (the owner 2026-10-30: «все нативные элементы должны быть
+  установлены … По умолчанию отключены остаются только: – страйп Все остальные по умолчанию активны»): the node starts it like every
+  native element; `power.reason` stays for when it is turned off (`npm run element:power -- cache status` in the core prints it);
 - the core shows it in the left menu, group **Memory**, with the reason on its pages.
 
-**What it does not do yet:** there is no Redis, no door, no transfer of totals, no schedule. Turning it on today starts the
-template site and nothing else.
+**What it does not do yet:** there is no Redis, no door, no transfer of totals, no schedule. Running, it serves its landing (node step 660: what it is for and
+where it stands) and nothing else.
 
 ## Where it runs
 
