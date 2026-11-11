@@ -2,13 +2,13 @@
   "title": "Fractera Cache — the fast store of your node",
   "description": "The fifth store of the node’s memory, next to the database, the files, the vectors and the graph, meant for the busy actions of applications: likes, views and reactions kept in memory and passed to the database in batches.",
   "keywords": "",
-  "blocks": [
+  "body": [
     {
       "kind": "widget-static-cache-landing",
       "bid": "rw001"
     },
     {
-      "kind": "block-hero-centered",
+      "kind": "section-hero-centered",
       "pill": "OpenSource Web4 agent & app starter kit",
       "title": "The fast store of your node",
       "description": "The fifth store of the node’s memory, next to the database, the files, the vectors and the graph. It is meant for the busy actions of applications: likes, views and reactions kept in memory and passed to the database in batches.",
@@ -23,7 +23,7 @@
       "bid": "rh001"
     },
     {
-      "kind": "block-section-head",
+      "kind": "section-head",
       "id": "route",
       "title": "Where it stands",
       "bid": "ra000"
@@ -74,7 +74,7 @@
       "bid": "ra009"
     },
     {
-      "kind": "block-section-head",
+      "kind": "section-head",
       "id": "power",
       "title": "Off by default",
       "bid": "q0000"
@@ -85,7 +85,7 @@
       "bid": "q0001"
     },
     {
-      "kind": "block-section-head",
+      "kind": "section-head",
       "id": "hood",
       "title": "What it has",
       "bid": "rb000"
@@ -117,7 +117,7 @@
       "bid": "rb001"
     },
     {
-      "kind": "block-section-head",
+      "kind": "section-head",
       "id": "builder",
       "title": "Your own builder comes with it",
       "bid": "q0002"
@@ -142,7 +142,7 @@
       "bid": "q0005"
     },
     {
-      "kind": "block-section-head",
+      "kind": "section-head",
       "id": "credits",
       "title": "Open source",
       "bid": "rc000"
@@ -153,13 +153,13 @@
       "bid": "rc001"
     },
     {
-      "kind": "block-section-head",
+      "kind": "section-head",
       "id": "faq",
       "title": "Questions and answers",
       "bid": "q0006"
     },
     {
-      "kind": "block-faq",
+      "kind": "section-faq",
       "title": "Questions and answers",
       "items": [
         {

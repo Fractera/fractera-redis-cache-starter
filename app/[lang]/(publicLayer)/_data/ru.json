@@ -2,13 +2,13 @@
   "title": "Fractera Cache — быстрое хранилище вашего узла",
   "description": "Пятое хранилище памяти узла, рядом с базой данных, файлами, векторами и графом, для частых действий приложений: лайки, просмотры и реакции держатся в памяти и уходят в базу пачками.",
   "keywords": "",
-  "blocks": [
+  "body": [
     {
       "kind": "widget-static-cache-landing",
       "bid": "rw001"
     },
     {
-      "kind": "block-hero-centered",
+      "kind": "section-hero-centered",
       "pill": "OpenSource Web4 agent & app starter kit",
       "title": "Быстрое хранилище вашего узла",
       "description": "Пятое хранилище памяти узла, рядом с базой данных, файлами, векторами и графом. Оно задумано для частых действий приложений: лайки, просмотры и реакции держатся в памяти и уходят в базу пачками.",
@@ -23,7 +23,7 @@
       "bid": "rh001"
     },
     {
-      "kind": "block-section-head",
+      "kind": "section-head",
       "id": "route",
       "title": "Где оно сейчас",
       "bid": "ra000"
@@ -74,7 +74,7 @@
       "bid": "ra009"
     },
     {
-      "kind": "block-section-head",
+      "kind": "section-head",
       "id": "power",
       "title": "Выключен по умолчанию",
       "bid": "q0000"
@@ -85,7 +85,7 @@
       "bid": "q0001"
     },
     {
-      "kind": "block-section-head",
+      "kind": "section-head",
       "id": "hood",
       "title": "Что у него есть",
       "bid": "rb000"
@@ -117,7 +117,7 @@
       "bid": "rb001"
     },
     {
-      "kind": "block-section-head",
+      "kind": "section-head",
       "id": "builder",
       "title": "Свой строитель в комплекте",
       "bid": "q0002"
@@ -142,7 +142,7 @@
       "bid": "q0005"
     },
     {
-      "kind": "block-section-head",
+      "kind": "section-head",
       "id": "credits",
       "title": "Открытый код",
       "bid": "rc000"
@@ -153,13 +153,13 @@
       "bid": "rc001"
     },
     {
-      "kind": "block-section-head",
+      "kind": "section-head",
       "id": "faq",
       "title": "Вопросы и ответы",
       "bid": "q0006"
     },
     {
-      "kind": "block-faq",
+      "kind": "section-faq",
       "title": "Вопросы и ответы",
       "items": [
         {
